@@ -1,0 +1,17 @@
+C:\git\classGenerator\ClassGenerator\bin\Debug\net6.0\ClassGenerator.exe
+C:\git\classGenerator\ClassGenerator\bin\Debug\net6.0\ClassGenerator.deps.json
+C:\git\classGenerator\ClassGenerator\bin\Debug\net6.0\ClassGenerator.runtimeconfig.json
+C:\git\classGenerator\ClassGenerator\bin\Debug\net6.0\ClassGenerator.dll
+C:\git\classGenerator\ClassGenerator\bin\Debug\net6.0\ClassGenerator.pdb
+C:\git\classGenerator\ClassGenerator\obj\Debug\net6.0\ClassGenerator.csproj.AssemblyReference.cache
+C:\git\classGenerator\ClassGenerator\obj\Debug\net6.0\ClassGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\classGenerator\ClassGenerator\obj\Debug\net6.0\ClassGenerator.AssemblyInfoInputs.cache
+C:\git\classGenerator\ClassGenerator\obj\Debug\net6.0\ClassGenerator.AssemblyInfo.cs
+C:\git\classGenerator\ClassGenerator\obj\Debug\net6.0\ClassGenerator.csproj.CoreCompileInputs.cache
+C:\git\classGenerator\ClassGenerator\obj\Debug\net6.0\ClassGenerator.dll
+C:\git\classGenerator\ClassGenerator\obj\Debug\net6.0\refint\ClassGenerator.dll
+C:\git\classGenerator\ClassGenerator\obj\Debug\net6.0\ClassGenerator.pdb
+C:\git\classGenerator\ClassGenerator\obj\Debug\net6.0\ClassGenerator.genruntimeconfig.cache
+C:\git\classGenerator\ClassGenerator\obj\Debug\net6.0\ref\ClassGenerator.dll
+C:\git\classGenerator\ClassGenerator\bin\Debug\net6.0\CommandLine.dll
+C:\git\classGenerator\ClassGenerator\obj\Debug\net6.0\ClassGenerator.csproj.CopyComplete
