@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7FadoUJvkqSUeBNxRlyvNfQnUmzjdteU8Es85m5hAE+Z/ABRxh/uRgvPQ1VnmVAgCsC4o0M1uu/AbUIpwZ02aA==",
+  "dgSpecHash": "FhFNIdd3+exTJqBKHnvedswDVyfdFfnyHMSPY9CP+oeBRq7woC+qaf2kv05mFQuajsj+RgdL5RuU+ng4Wew2kA==",
   "success": true,
-  "projectFilePath": "C:\\git\\classGenerator\\ClassGenerator\\ClassGenerator.csproj",
+  "projectFilePath": "C:\\git\\ClassGenerator\\ClassGenerator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\iago\\.nuget\\packages\\commandlineparser\\2.9.1\\commandlineparser.2.9.1.nupkg.sha512"
   ],

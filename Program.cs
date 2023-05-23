@@ -56,7 +56,7 @@ public class ClassGenerator
 
             if (!File.Exists(filePath))
             { 
-                File.WriteAllText(filePath, "hello world!");
+                File.WriteAllText(filePath, String.Empty);
             }
     
         }
