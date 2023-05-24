@@ -53,16 +53,61 @@ public class ClassGenerator
             DirectoryInfo di = Directory.CreateDirectory(entityPath);
             Console.WriteLine("The directory was created successfully at {0}.", Directory.GetCreationTime(path));
 
+            int numberOfProperties = 1;
+            Dictionary<string, string> propertieDictionary = new Dictionary<string, string>();
+
+            Console.WriteLine("How many properties this class will have?");
+            numberOfProperties = Convert.ToInt32(Console.ReadLine());
+
+            int i = 0;
+            for (i = 0; i < numberOfProperties; i++)
+            {
+                string name;
+                string type;
+                Console.WriteLine("What is the name of the property?");
+                name = Console.ReadLine();
+                Console.WriteLine("What is the type of the property?");
+                type = Console.ReadLine();
+
+                propertieDictionary.Add(name, type);
+            }
+
+            string classContent = $@"
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace {className}s.Entities
+{{
+    public class {className}
+    {{
+        {GenerateProperties(propertieDictionary)}
+    }}
+}}";
 
             if (!File.Exists(filePath))
-            { 
-                File.WriteAllText(filePath, String.Empty);
+            {
+                File.WriteAllText(filePath, classContent);
             }
-    
+
         }
         catch (Exception Ex)
         {
             Console.WriteLine(Ex.ToString());
         }
+    }
+    public string GenerateProperties(Dictionary<string, string> dict)
+    {
+        IList<string> property = new List<string>();
+
+        foreach (var dic in dict)
+        {
+            string prop = @$"public virtual {dic.Value} {dic.Key} {{get; set;}}";
+            property.Add(prop);
+        }
+
+        return string.Join(Environment.NewLine, property);
     }
 }
